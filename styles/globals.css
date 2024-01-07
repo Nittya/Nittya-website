@@ -9,3 +9,24 @@ body {
 .container {
     max-width: 1298px;
 }
+
+.sideCart {
+    max-width: 80vw; /* Adjust the value as needed */
+  }
+
+  @media (max-width: 768px) {
+    .sideCart {
+      position: fixed; /* or another positioning that works for small screens */
+    }
+  }
+
+  .sideCart {
+    overflow: hidden;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
