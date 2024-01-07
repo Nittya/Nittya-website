@@ -30,6 +30,7 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
           <Link href={'/women'}><li className='hover:text-green-600'>Women</li></Link>
           <Link href={'/mens'}><li className='hover:text-green-600'>Men's</li></Link>
           <Link href={'/energyballs'}><li className='hover:text-green-600'>Energy Balls</li></Link>
+          <Link href={'/articles'}><li className='hover:text-green-600'>Blogs</li></Link>
         </ul>
       </div>
       <div className="cursor-pointer cart absolute right-0 top-4 mx-5 flex">
