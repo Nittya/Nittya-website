@@ -14,7 +14,7 @@ const Contact = () => {
                         marginHeight="0"
                         marginWidth="0"
                         scrolling="no"
-                        src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.9913815980126!2d73.90831867523808!3d18.574427282529612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1367304bc4d%3A0x1acb344b0342c406!2sROHAN%20MITHILA%20LOWER%20PARIJAT%20BLOCK%2C%20Mhada%20Colony%2C%20Viman%20Nagar%2C%20Pune%2C%20Maharashtra%20411014!5e0!3m2!1sen!2sin!4v1709131621981!5m2!1sen!2sin"
                         style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }}
                     ></iframe>
                     <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
