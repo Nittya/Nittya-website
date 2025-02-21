@@ -26,6 +26,7 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
       </div>
       <div className="nav">
         <ul className='flex items-center space-x-6 font-bold md:text-md'>
+          <Link href={'/'}><li className='hover:text-green-600'>Home</li></Link>
           <Link href={'/kids'}><li className='hover:text-green-600'>Kids</li></Link>
           <Link href={'/women'}><li className='hover:text-green-600'>Women</li></Link>
           <Link href={'/mens'}><li className='hover:text-green-600'>Men's</li></Link>

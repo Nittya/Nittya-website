@@ -18,10 +18,10 @@ const ImageCarousel = () => {
     return (
         <div className="mx-1 relative">
             <Slider {...settings}>
-                <div className="h-[600px] overflow-hidden">
+                <div className="overflow-hidden">
                     <img src="/images/slide1.jpg" alt="Slide 1" className="w-full h-full object-cover" />
                 </div>
-                <div className="h-[600px] overflow-hidden">
+                <div className="overflow-hidden">
                     <img src="/images/slide2.jpg" alt="Slide 2" className="w-full h-full object-cover" />
                 </div>
                 {/* Add more slides as needed */}

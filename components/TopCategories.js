@@ -6,6 +6,10 @@ const TopCategories = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
 
+          <div className="container mx-auto text-center">
+            <h2 className="text-5xl font-bold mb-5">Top Categories</h2>
+          </div>
+
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div className="mx-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
               <img alt="ecommerce" className="m-auto h-[30vh] md:h-[36vh] block" src="https://dummyimage.com/400x400" />
